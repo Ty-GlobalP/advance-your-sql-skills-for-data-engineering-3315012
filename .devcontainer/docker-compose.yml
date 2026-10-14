@@ -6,7 +6,7 @@ services:
       context: ..
       dockerfile: .devcontainer/Dockerfile
       args:
-        VARIANT: 3.9-bullseye
+        VARIANT: 3.10-bookworm
         NODE_VERSION: "lts/*"
 
     volumes:
